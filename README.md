@@ -1,7 +1,7 @@
 # petal_ct_crop_seg
 
 ## Overview
-This repository is dedicated to a method for segmenting petals from CT images of *C. japonica*.
+This repository is for a paper on a method to segment petals from CT images of *C. japonica*.
 
 ## Usage
 ### Installation
@@ -101,7 +101,7 @@ python 2d_inte.py [-h] [--input INPUT] [--output OUTPUT] [--proc-num PROC_NUM] s
 ```
 
 #### `scripts/3d_inte.py`
-This code integrates the segmentation results of the cropped image.
+This code integrates segmentation results that are integrated in 2D in a 3D direction.
 
 ```bash
 python 3d_inte.py [-h] [--input INPUT] [--output OUTPUT]
